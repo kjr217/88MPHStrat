@@ -1,0 +1,177 @@
+{
+  "contracts": {
+    "OpenZeppelin/openzeppelin-contracts@3.1.0/Address": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "OpenZeppelin/openzeppelin-contracts@3.1.0/Math": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeERC20": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeMath": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "Strategy": "4825bc40bdc4f23e00d71dc332598b37a728d308"
+  },
+  "tests": {
+    "tests/test_migration.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "24f0764ac3ede4efbe90e71d454538cb671fc654",
+      "txhash": []
+    },
+    "tests/test_operation.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "......",
+      "sha1": "f00cb0721f25129389066f749d29d42068bdb902",
+      "txhash": [
+        "5fdf246aa941ae676baf4589d5c6ccedd1672c68",
+        "87f8f9013ab62dd72c29e22bfae1af5001c7b585",
+        "aed48f7f07e0abbdfbe0fa344fcce581a9e02e3a",
+        "dd39663c4edc442ba1a488cdaae63d8d7e1033c9"
+      ]
+    },
+    "tests/test_revoke.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..",
+      "sha1": "daf8eafcf59bf1cc5326bfcc18e8cee8490075a2",
+      "txhash": []
+    }
+  },
+  "tx": {
+    "5fdf246aa941ae676baf4589d5c6ccedd1672c68": {
+      "Strategy": {
+        "1": [
+          [],
+          [],
+          []
+        ],
+        "5": [
+          [
+            0,
+            70
+          ],
+          [
+            114
+          ],
+          []
+        ],
+        "6": [
+          [],
+          [],
+          []
+        ]
+      },
+      "Vault": {
+        "0": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "87f8f9013ab62dd72c29e22bfae1af5001c7b585": {
+      "Strategy": {
+        "1": [
+          [],
+          [],
+          []
+        ],
+        "5": [
+          [
+            0,
+            1,
+            2,
+            3,
+            70
+          ],
+          [
+            116
+          ],
+          [
+            114,
+            115,
+            116
+          ]
+        ],
+        "6": [
+          [
+            71,
+            72,
+            73
+          ],
+          [],
+          []
+        ]
+      },
+      "Vault": {
+        "0": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "aed48f7f07e0abbdfbe0fa344fcce581a9e02e3a": {
+      "Strategy": {
+        "1": [
+          [],
+          [],
+          []
+        ],
+        "5": [
+          [
+            0,
+            1,
+            70
+          ],
+          [
+            115
+          ],
+          [
+            114
+          ]
+        ],
+        "6": [
+          [],
+          [],
+          []
+        ]
+      },
+      "Vault": {
+        "0": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "dd39663c4edc442ba1a488cdaae63d8d7e1033c9": {
+      "Strategy": {
+        "1": [
+          [],
+          [],
+          []
+        ],
+        "5": [
+          [
+            0,
+            70
+          ],
+          [
+            114
+          ],
+          []
+        ],
+        "6": [
+          [],
+          [],
+          []
+        ]
+      },
+      "Vault": {
+        "0": [
+          [],
+          [],
+          []
+        ]
+      }
+    }
+  }
+}
